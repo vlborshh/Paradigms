@@ -12,7 +12,6 @@ def binarySearch(arr: List[int], number: int) -> int:
         else:
             right = mid - 1
     return -1
-
 arr = [1, 2, 4, 6, 10, 12]
 print(f"В массиве: {arr}")
 number = int(input("Введите элемент для поиска: "))
